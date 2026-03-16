@@ -1,0 +1,8 @@
+language: "zh-CN" # 强制要求交互界面为中文
+ui:
+  theme: "dark"
+  locale: "zh_CN"
+
+# 关键：在全局 System Prompt 中加入中文约束
+agent:
+  system_prompt_suffix: "Please always communicate and explain code in Chinese (Simplified). Keep technical terms in English where appropriate."
