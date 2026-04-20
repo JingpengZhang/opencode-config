@@ -43,8 +43,54 @@
         "apiKey": "pk-8cdfaa53-5e73-47fa-9967-89f472d1aa0a"
       },
       "models": {
+        "DeepSeek-V3.2": {
+          "name": "DeepSeek-V3.2",
+          "limit": {
+            "context": 128000,
+            "output": 64000
+          }
+        },
         "GLM-5": {
-          "name": "JD Coding Plan - GLM5"
+          "name": "GLM-5",
+          "limit": {
+            "context": 200000,
+            "output": 32000
+          }
+        },
+        "GLM-4.7": {
+          "name": "GLM-4.7",
+          "limit": {
+            "context": 200000,
+            "output": 128000
+          }
+        },
+        "MiniMax-M2.5": {
+          "name": "MiniMax-M2.5",
+          "limit": {
+            "context": 200000,
+            "output": 128000
+          }
+        },
+        "Kimi-K2.5": {
+          "name": "Kimi-K2.5",
+          "limit": {
+            "context": 256000,
+            "output": 128000
+          }
+        },
+        "Kimi-K2-Turbo": {
+          "name": "Kimi-K2-Turbo",
+          "limit": {
+            "context": 256000,
+            "output": 32000
+          }
+        },
+        "Qwen3-Coder": {
+          "name": "Qwen3-Coder",
+          "limit": {
+            "context": 64000,
+            "output": 8000
+          }
         }
       }
     }
